@@ -1,0 +1,12 @@
+Deployment checklist
+- [ ] Install requirements in a fresh Python 3.11 virtual environment.
+- [ ] Run pytest -q.
+- [ ] Test a text-based PDF, DOCX, TXT, empty file, and oversized file.
+- [ ] Configure Gemini key and verify profile extraction, matching, and cover-letter generation.
+- [ ] Run supabase_schema.sql in Supabase SQL Editor.
+- [ ] Create two Supabase test users and verify each user can only see their own application records.
+- [ ] Test account signup, sign-in, sign-out, status updates, and expired sessions.
+- [ ] Verify Adzuna country support before enabling it; confirm fallback links work if API results are unavailable.
+- [ ] Add secrets only to Streamlit Cloud settings, not GitHub.
+- [ ] Check public app logs and test deployment from a clean browser session.
+- [ ] Add privacy policy, data deletion, rate limits, and a clear disclaimer before inviting public users. 
